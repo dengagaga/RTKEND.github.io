@@ -1,0 +1,130 @@
+.section-people {
+  padding: 80px var(--padding-page) 40px;
+}
+.section-people__title {
+  margin-bottom: 30px;
+}
+.section-people__list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 65px 30px;
+}
+.section-people__item {
+}
+.item-card {
+}
+.item-card__top {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+.item-card__top-icon {
+  border-radius: 10px;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--bg-icons);
+  padding: 8px;
+}
+.item-card__top-title {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  color: var(--text-green-dark);
+  margin-bottom: 5px;
+}
+.item-card__top-text {
+  font-size: 14px;
+  color: #878787;
+}
+.item-card__bottom {
+}
+.item-card__bottom-item {
+  display: flex;
+  gap: 26px;
+  align-items: flex-end;
+}
+.item-card__bottom-item:not(:last-child) {
+  margin-bottom: 15px;
+}
+.item-card__bottom-item img {
+  width: 20px;
+  height: 20px;
+}
+.item-card__bottom-item a {
+  text-decoration: underline;
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--text-blue);
+}
+
+.section-office {
+  padding: 40px var(--padding-page) 100px;
+}
+.section-office__title {
+  margin-bottom: 30px;
+}
+.section-office__map {
+ margin-bottom: 30px;
+}
+.section-office__map iframe {
+  border-radius: 20px;
+}
+.section-office__info {
+  display: flex;
+  gap: 111px;
+}
+.section-office__info-item__wrapper {
+  max-width: 444px;
+  width: 100%;
+}
+.section-office__info-item {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+.section-office__info-item-icon {
+  border-radius: 10px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--bg-icons);
+  padding: 10px;
+}
+.section-office__info-item-text {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+@media (max-width: 900px) {
+  .section-people__list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .section-office__info-item__wrapper {
+    max-width: 100%;
+  }
+  .section-office__info {
+    gap: 30px;
+  }
+}
+@media (max-width: 640px) {
+  .section-office__info {
+    display: block;
+  }
+}
+@media (max-width: 540px) {
+  .section-people {
+    padding-block: 70px 36px;
+  }
+  .section-people__list {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 59px;
+  }
+  .section-office {
+    padding-block: 36px 110px;
+  }
+}

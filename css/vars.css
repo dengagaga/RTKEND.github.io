@@ -1,0 +1,59 @@
+:root {
+  --padding-page: 245px;
+  --padding-page-2: 120px;
+  --padding-page-3: 60px;
+  --padding-page-4: 24px;
+  --title-font-size: 48px;
+  --title-font-size-2: 24px;
+  --title-font-size-3: 22px;
+  --title-font-size-4: 20px;
+  --content-font-size: 18px;
+  --content-font-size-2: 14px;
+  --green: #16A460;
+  --green-100: #B9D1C6;
+  --green-200: #DCF2E7;
+  --green-300: #3BB17B;
+  --green-500: #006747;
+  --bg: #F4F7FA;
+  --bg-white: #ffffff;
+  --bg-green: var(--green);
+  --bg-icons: var(--green-200);
+  --icons-color: var(--green-300);
+  --text-dark: #000000;
+  --text-dark-200: #232323;
+  --text-white: #ffffff;
+  --text-blue: #092B3C;
+  --text-blue-dark: #161C2D;
+  --text-green: var(--green);
+  --text-green-dark: var(--green-500);
+  --text-default: var(--text-dark);
+  --text-in-boxes: #88A690;
+  --label-title: #283646;
+  --outer-line: var(--green-100);
+  --gradient: linear-gradient(85.95deg, #00AD5A -16.85%, #009367 117.47%);
+  --gradient-hover: linear-gradient(85.95deg, #02944d -16.85%, #006d4c 117.47%);
+  --gradient-1: linear-gradient(85.95deg, #006747 -16.85%, #16A460 117.47%);
+  --gradient-1-hover: linear-gradient(85.95deg, #014b33 -16.85%, #11804a 117.47%);
+}
+
+@media (max-width: 1599px) {
+  :root {
+    --padding-page: 120px;
+  }
+}
+
+@media (max-width: 1280px) {
+  :root {
+    --padding-page: 60px;
+  }
+}
+@media (max-width: 768px) {
+  :root {
+      --padding-page: 30px;
+  }
+}
+@media (max-width: 540px) {
+  :root {
+      --padding-page: 24px;
+  }
+}

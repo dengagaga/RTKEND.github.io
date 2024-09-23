@@ -1,0 +1,190 @@
+.section-main {
+  padding-bottom: 91px;
+}
+.section-main__content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 31px;
+}
+.section-main__banner {
+  margin-bottom: 84px;
+}
+.section-main__content-left {
+  width: calc(50% - 16px);
+}
+.section-main__content-main-image {
+  border-radius: 20px;
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 30px;
+}
+.section-main__content-images {
+  display: flex;
+  justify-content: space-between;
+}
+.section-main__content-images--mobile {
+  display: none;
+  justify-content: space-between;
+}
+.section-main__content-image {
+  border-radius: 20px;
+  width: 29%;
+  height: 150px;
+  object-fit: cover;
+}
+.section-main__content-right {
+  width: calc(50% - 16px);
+  padding-right: 49px;
+}
+.section-main__content-right .section-main__content-text:not(:last-child) {
+  margin-bottom: 30px;
+}
+.section-main__content-text .text-green {
+  font-weight: 600;
+}
+.section-main__content-bottom {
+  width: 100%;
+}
+
+.section-products {
+  padding: 143px var(--padding-page) 130px;
+}
+
+.section-products__title {
+  margin-bottom: 50px;
+}
+.products_list-item {
+  background-color: #fff;
+  border-radius: 5px;
+  border-radius: 42px 42px 0 0;
+}
+.products_list-item-top {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.products_list-item-top-left h2{
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.products_list-item-top-left p{
+  font-size: 14px;
+  color: gray;
+  margin-bottom: 30px;
+}
+.products_list-item-top-left a{
+  font-size: 12px;
+  color: orangered;
+  text-decoration: revert;
+
+}
+.products_list-item-top-rigth img{
+  max-width: 105px;
+  width: 105px;
+  object-fit: cover;
+  height: 160px;
+}
+.products_list-item-top-rigth_img {
+  max-width: 190px!important;
+
+}
+.products_list-item-mid {
+  display: flex;
+  margin-bottom: 30px;
+
+}
+.products_list-item-mid-left {
+    border: 1px solid rgba(128, 128, 128, 0.158);
+    border-left: none;
+    border-bottom: none;
+    /* width: 50%; */
+    width: 100%;
+}
+.products_list-item-mid-item {
+  display: flex;
+  padding: 10px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.158);
+}
+.products_list-item-mid-item img{
+ max-width: 25px;
+ margin-right: 10px;
+}
+.products_list-item-mid-item-text {
+
+}
+.products_list-item-mid-item-text p{
+  font-size: 14px;
+  color: gray;
+}
+.products_list-item-mid-item-text h4{
+  font-size: 14px;
+  font-weight: 400;
+}
+.products_list-item-mid-right {
+  border: 1px solid rgba(128, 128, 128, 0.158);
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+
+  width: 50%;
+}
+.products_list-item-bot button{
+  font-size: 18px;
+  border-radius: 5px;
+  font-weight: 500;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(128, 128, 128, 0.205);
+  padding: 10px;
+  background-color: #fff;
+  max-width: 250px;
+  width: 100%;
+}
+@media (max-width: 1000px) {
+  .section-main__content {
+    flex-direction: column;
+  }
+  .section-main__content-left {
+    width: 100%;
+  }
+  .section-main__content-right {
+    width: 100%;
+    padding-right: 0;
+  }
+}
+@media (max-width: 540px) {
+  .products_list-item-top-rigth_img {
+    max-width: 140px!important;
+  
+  }
+  .section-main {
+    padding-block: 50px 70px;
+  }
+  .section-main__banner {
+    margin-bottom: 50px;
+  }
+  .section-main__content {
+    gap: 40px;
+  }
+  .section-main__content-main-image {
+    margin-bottom: 0;
+  }
+  .section-main__content-images {
+    display: none;
+  }
+  .section-main__content-images--mobile {
+    display: flex;
+    gap: 8px;
+  }
+  .section-main__content-image {
+    width: 32%;
+  }
+}
