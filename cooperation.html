@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RTK TIMBER Ltd.</title>
+  <link rel="stylesheet" href="css/vars.css">
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="css/cooperation.css">
+</head>
+<body>
+  <button class="btn-pop-up">
+    <img src="images/icons/question.svg" alt="иконка вопроса">
+  </button>
+  <div class="pop-up">
+    <div class="pop-up__inner">
+     <h3 class="pop-up__title lng-trans-51">Нужна помощь?</h3>
+      <p class="pop-up__text lng-trans-52">Свяжитесь с нами или перейдите в раздел с часто задаваемыми вопросами.</p>
+      <div class="pop-up__links">
+        <a class="pop-up__link pop-up__link-tel" href="tel:+37128059655">
+          <span>
+            <img src="images/icons/phone.svg" alt="иконка телефона">
+          </span>
+          <span>+371 28059655</span>
+        </a>
+        <a class="pop-up__link pop-up__link-faq" href="faq.html">
+          <span>
+            <img src="images/icons/question.svg" alt="иконка вопроса">
+          </span>
+          <span>FAQ</span>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="mobile-menu">
+    <nav class="mobile-menu__inner">
+      <ul class="header__nav-list--mobile">
+        <li>
+          <a class="header__nav-link" href="delivery.html">Доставка</a>
+        </li>
+        <li>
+          <a class="header__nav-link" href="about.html">О нас</a>
+        </li>
+        <li>
+          <a class="header__nav-link" href="quality.html">Качество</a>
+        </li>
+        <li>
+          <a class="header__nav-link" href="contacts.html">Контакты</a>
+        </li>
+        <li>
+          <a class="header__nav-btn--mobile" href="cooperation.html">Начать сотрудничество</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  <header class="header d-center-between">
+    <a href="index.html">
+      <img src="images/logo.svg" alt="Логотип RTK TIMBER Ltd." width="102" height="60">
+    </a>
+    <nav class="d-center">
+      <ul class="header__nav-list d-center-between">
+        <li>
+          <a class="header__nav-link lng-Delivery" href="delivery.html">Доставка</a>
+        </li>
+        <li>
+          <a class="header__nav-link lng-About" href="about.html">О нас</a>
+        </li>
+        <li>
+          <a class="header__nav-link lng-Quality" href="quality.html">Качество</a>
+        </li>
+        <li>
+          <a class="header__nav-link lng-Contacts" href="contacts.html">Контакты</a>
+        </li>
+      </ul>
+      <select class="change-lang select">
+        <option value="de">DE</option>
+        <option value="ru">RU</option>
+        <option value="lv">LV</option>
+        <option value="it">IT</option>
+
+    </select>
+      <a  class="header__nav-btn lng-Start_cooperation" href="cooperation.html">Начать сотрудничество</a>
+      <!-- <div>
+        <select  class="header__nav-select" name="lang" id="select-lang">
+          <option value="RU">RU</option>
+          <option value="EN">EN</option>
+        </select>
+        <div class="header__nav-dropdown">0,00</div>
+      </div> -->
+      <button class="burger-btn">
+        <div class="burger-btn__inner">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </button>
+    </nav>
+  </header>
+  <main>
+    <section class="main-banner__wrapper section-main bg-white">
+      <div class="main-banner section-main__banner">
+        <h1 class="title-1 main-banner__title section-main__title lng-trans-55">Получить индивидуальное предложение</h1>
+      </div>
+    </section>
+    <section class="section-form bg-white">
+      <form class="section-form__form form">
+        <h2 class="section-form__title lng-trans-56">Информация о заказчике</h2>
+        <p class="section-form__text text-green lng-trans-57">Применяемый к заказанному товару НДС зависит от вашего личного статуса.</p>
+        <div class="section-form__top">
+          <label class="form__select">
+            <span class="form-label__title lng-trans-58">Страна</span>
+            <select name="Страна" id="country" required>
+              <option value="" class="lng-trans-59" disabled selected>Выберите страну из выпадающего списка...</option>
+              <option value="Россия" class="lng-trans-60">Россия</option>
+              <option value="Польша" class="lng-trans-61">Польша</option>
+            </select>
+          </label>
+          <label class="form__select">
+            <span class="form-label__title lng-trans-62">Город</span>
+            <select name="Город" id="city" required>
+              <option value="" disabled selected class="lng-trans-63">Выберите город из выпадающего списка...</option>
+              <option value="Москва"class="lng-trans-64">Москва</option>
+              <option value="Владивосток" class="lng-trans-65">Владивосток</option>
+            </select>
+          </label>
+          <label class="form__radio">
+            <span class="form-label__title lng-trans-66">Личный статус заказчика</span>
+            <div class="form__radio-list">
+              <input type="radio" name="Личный статус заказчика" id="radio-1" value="Физическое лицо">
+              <label class="form__radio-item   lng-trans-67" for="radio-1">
+                Физическое лицо
+              </label>
+              <input type="radio" name="Личный статус заказчика" id="radio-2" value="Юридическое лицо">
+              <label class="form__radio-item lng-trans-68" for="radio-2">
+                Юридическое лицо
+              </label>
+            </div>
+          </label>
+          <div class="form__status-content">
+            <div class="form__status-private">
+              <label class="form__input form__input-name">
+                <span class="form-label__title lng-trans-69">Имя</span>
+                <input type="text" name="Имя" placeholder="Введите имя">
+              </label>
+              <label class="form__input form__input-surname">
+                <span class="form-label__title lng-trans-70">Фамилия</span>
+                <input type="text" name="Фамилия" placeholder="Введите фамилию">
+              </label>
+              <label class="form__input form__input-code">
+                <span class="form-label__title lng-trans-71">Персональный код</span>
+                <input type="text" name="Персональный код" placeholder="Введите код при наличии">
+              </label>
+              <label class="form__input form__input-phone">
+                <span class="form-label__title lng-trans-72">Номер телефона</span>
+                <input type="tel" name="Номер телефона" placeholder="Введите номер телефона">
+              </label>
+              <label class="form__input form__input-email">
+                <span class="form-label__title lng-trans-73">E-mail</span>
+                <input type="email" name="Почта" placeholder="example@mail.com">
+              </label>
+            </div>
+            <div class="form__status-juridical">
+              <label class="form__input form__input-number">
+                <span class="form-label__title lng-trans-76">Регистрационный номер</span>
+                <input type="text" name="Регистрационный номер" placeholder="Введите номер компании">
+              </label>
+              <label class="form__input form__input-phone">
+                <span class="form-label__title lng-trans-75">Номер телефона</span>
+                <input type="tel" name="Номер телефона" placeholder="Введите номер телефона">
+              </label>
+              <label class="form__input form__input-email">
+                <span class="form-label__title lng-trans-74">E-mail</span>
+                <input type="email" name="Почта" placeholder="example@mail.com">
+              </label>
+              <label class="form__input form__input-company">
+                <span class="form-label__title lng-trans-77">Название компании</span>
+                <input type="text" name="Название компании" placeholder="Введите полное название">
+              </label>
+              <label class="form__input form__input-address">
+                <span class="form-label__title lng-trans-78">Юридический адрес компании</span>
+                <input type="text" name="Юридический адрес" placeholder="Введите юридический адрес">
+              </label>
+            </div>
+          </div>
+        </div>
+        <h2 class="section-form__title lng-trans-79">Информация о доставке</h2>
+        <div class="section-form__middle">
+          <label class="form__input form__input-street">
+            <span class="form-label__title lng-trans-80">Улица</span>
+            <div class="form__input-street__inner">
+              <input type="text" name="Адрес доставки" placeholder="Введите адрес">
+              <button class="lng-trans-81">
+                <span>
+                  <svg width="24" height="24" viewBox="0 0 24 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12 0C18.6167 0 24 5.35446 24 11.9366C24 20.0279 14.6095 28 12 28C9.39055 28 0 20.0279 0 11.9366C0 5.35446 5.38327 0 12 0ZM12 2.15385C6.58618 2.15385 2.18182 6.54338 2.18182 11.9366C2.18182 18.7988 10.3622 25.4843 12 25.8404C13.6378 25.4829 21.8182 18.7973 21.8182 11.9366C21.8182 6.54338 17.4138 2.15385 12 2.15385ZM12.0015 7.17949C14.608 7.17949 16.7287 9.27303 16.7287 11.8476C16.7287 14.4207 14.608 16.5128 12.0015 16.5128C9.39491 16.5128 7.27418 14.4207 7.27418 11.8476C7.27418 9.27303 9.39491 7.17949 12.0015 7.17949ZM12.0015 9.33333C10.5978 9.33333 9.456 10.4605 9.456 11.8476C9.456 13.2332 10.5978 14.359 12.0015 14.359C13.4051 14.359 14.5469 13.2332 14.5469 11.8476C14.5469 10.4605 13.4051 9.33333 12.0015 9.33333Z" fill="currentColor"/>
+                  </svg>
+                </span>
+                Отметить на карте
+              </button>
+            </div>
+          </label>
+          <label class="form__input form__input-delivery__bottom">
+            <span class="form-label__title lng-trans-82">Название или номер дома</span>
+            <input type="text">
+          </label>
+          <label class="form__input form__input-delivery__bottom">
+            <span class="form-label__title lng-trans-83">Номер помещения</span>
+            <input type="text">
+          </label>
+          <label class="form__input form__input-delivery__bottom">
+            <span class="form-label__title lng-trans-84">Почтовый индекс</span>
+            <input type="text">
+          </label>
+        </div>
+        <h2 class="section-form__title lng-trans-85">Информация о заказе</h2>
+        <p class="section-form__text text-green lng-trans-86">Опишите, какие товары и в каком объёме необходимы, а также любые пожелания по Вашему заказу</p>
+        <div class="section-form__bottom">
+          <textarea name="Сообщение" placeholder="Мы обязательно учтём все ваши просьбы!"></textarea>
+          <input type="checkbox" id="approval1">
+          <label class="form__checkbox" for="approval1">
+            <div class="form__checkbox-check">
+              <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_123_100)">
+                <path d="M17.2294 0.687492C17.0642 0.580259 16.8795 0.506629 16.6858 0.470807C16.4921 0.434985 16.2933 0.437674 16.1006 0.47872C15.908 0.519766 15.7253 0.598364 15.563 0.710026C15.4008 0.821687 15.2621 0.964224 15.1549 1.12949L6.74993 14.085L2.65093 10.295C2.50631 10.1613 2.33677 10.0574 2.15199 9.98915C1.9672 9.92096 1.7708 9.88982 1.57399 9.89753C1.1765 9.9131 0.801482 10.0859 0.531425 10.378C0.261369 10.6701 0.118397 11.0574 0.133962 11.4549C0.149528 11.8524 0.322356 12.2274 0.614425 12.4975L5.99643 17.4735C5.99643 17.4735 6.15093 17.6065 6.22242 17.653C6.38767 17.7603 6.57244 17.834 6.76617 17.8699C6.95991 17.9057 7.15882 17.9031 7.35152 17.862C7.54423 17.821 7.72696 17.7423 7.88926 17.6306C8.05156 17.5189 8.19026 17.3763 8.29743 17.211L17.6714 2.76199C17.7787 2.59677 17.8523 2.41204 17.8881 2.21835C17.9239 2.02467 17.9212 1.82582 17.8802 1.63317C17.8392 1.44053 17.7606 1.25785 17.6489 1.09559C17.5372 0.933329 17.3947 0.794655 17.2294 0.687492Z" fill="#fff"/>
+                </g>
+                <defs>
+                <clipPath id="clip0_123_100">
+                <rect width="18" height="18" fill="white"/>
+                </clipPath>
+                </defs>
+              </svg>
+            </div>
+            <span class="lng-trans-87">Я хочу получать новости и информацию об акциях на указанный мной адрес электронной почты</span>
+          </label>
+          <input type="checkbox" id="approval2">
+          <label class="form__checkbox" for="approval2">
+            <div class="form__checkbox-check">
+              <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_123_100)">
+                <path d="M17.2294 0.687492C17.0642 0.580259 16.8795 0.506629 16.6858 0.470807C16.4921 0.434985 16.2933 0.437674 16.1006 0.47872C15.908 0.519766 15.7253 0.598364 15.563 0.710026C15.4008 0.821687 15.2621 0.964224 15.1549 1.12949L6.74993 14.085L2.65093 10.295C2.50631 10.1613 2.33677 10.0574 2.15199 9.98915C1.9672 9.92096 1.7708 9.88982 1.57399 9.89753C1.1765 9.9131 0.801482 10.0859 0.531425 10.378C0.261369 10.6701 0.118397 11.0574 0.133962 11.4549C0.149528 11.8524 0.322356 12.2274 0.614425 12.4975L5.99643 17.4735C5.99643 17.4735 6.15093 17.6065 6.22242 17.653C6.38767 17.7603 6.57244 17.834 6.76617 17.8699C6.95991 17.9057 7.15882 17.9031 7.35152 17.862C7.54423 17.821 7.72696 17.7423 7.88926 17.6306C8.05156 17.5189 8.19026 17.3763 8.29743 17.211L17.6714 2.76199C17.7787 2.59677 17.8523 2.41204 17.8881 2.21835C17.9239 2.02467 17.9212 1.82582 17.8802 1.63317C17.8392 1.44053 17.7606 1.25785 17.6489 1.09559C17.5372 0.933329 17.3947 0.794655 17.2294 0.687492Z" fill="#fff"/>
+                </g>
+                <defs>
+                <clipPath id="clip0_123_100">
+                <rect width="18" height="18" fill="white"/>
+                </clipPath>
+                </defs>
+              </svg>
+            </div>
+            <span class="lng-trans-88">
+              Я ознакомился (-ась) с условиями 
+              <a href="policy.html" target="_blank">политикой конфиденциальности</a> 
+              и 
+              <a href="policy.html" target="_blank">и согласен (-на) с ними</a>
+            </span>
+          </label>
+        </div>
+        <div class="form__buttons">
+          <button class="form__button-link lng-trans-89">Вернуться на главную</button>
+          <button class="form__button-submit lng-trans-90">Отправить запрос</button>
+        </div>
+      </form>
+    </section>
+  </main>
+  <footer class="footer">
+    <div>
+      <h2 class="title-1 footer__title lng-trans-25">Выдающееся качество</h2>
+      <div class="footer_all">
+        <p class="footer__text lng-trans-26">Компания SIA "RTK TIMBER" сертифицирована ENplus® A1
+        </p>
+        <div class="footer__contacts">
+          <!-- <div class="footer__contact">
+            <div class="footer__contact-icon">
+              <img src="images/icons/letter.svg" alt="иконка">
+            </div>
+            <a href="mailto:dsasdasd@sample.com">dsasdasd@sample.com</a>
+          </div> -->
+          <div class="footer__contact"> 
+            <div class="footer__contact-icon">
+              <img src="images/icons/phone-active.svg" alt="иконка">
+            </div>
+            <a href="tel:+37126377636">+371 26377636</a>
+          </div>
+          <!-- <div class="footer__contact"> 
+            <div class="footer__contact-icon">
+              <img src="images/icons/geo-mark.svg" alt="иконка" width="24" height="28">
+            </div>
+            <div>
+              <p>
+                SIA "RTK TIMBER"
+              </p>
+              <p>
+                LV40103822821
+              </p>
+              <p>         
+                Stabu iela 62-8 LV 1009
+              </p>
+            </div>
+          </div> -->
+        </div>
+      </div>
+   
+    </div>
+    <!-- <div class="footer__right-wrapper">
+      <div class="footer__right">
+        <img src="images/certificate/certificate-4.png" alt="сертификат 4">
+        <img src="images/certificate/certificate-3.png" alt="сертификат 3">
+        <img src="images/certificate/certificate-2.png" alt="сертификат 2">
+        <img src="images/certificate/certificate-1.png" alt="сертификат 1">
+      </div>
+    </div> -->
+  </footer>
+  <script src="js/lang.js"></script>
+  <script src="js/index.js"></script>
+</body>
+</html>
