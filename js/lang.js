@@ -304,10 +304,10 @@ const langArr = {
         "it": 'SIA "RTK TIMBER" è certificato ENplus® A1'
     },
     "trans-27" : {
-        'ru': 'Информация о доставке в ваш регион',
-        'de': 'Informationen über die Zustellung in Ihrer Region',
-        'lv': 'Informācija par piegādi jūsu reģionā',
-        "it": 'Informazioni sulla consegna nella vostra regione'
+        'ru': 'Информация о доставке',
+        'de': 'Informationen über die Zustellung',
+        'lv': 'Informācija par piegādi',
+        "it": 'Informazioni sulla consegna nella'
     },
     "trans-28" : {
         'ru': 'SIA "RTK TIMBER" выполняет доставку в сотрудничестве с лучшими логистическими партнерами по всей Европе. Мы обеспечиваем доставку продукции от производства до адреса клиента. Клиентам мы сообщаем планируемое время доставки и обеспечиваем быструю и качественную выгрузку товара по договоренности.',
@@ -372,7 +372,7 @@ const langArr = {
     "trans-38" : {
         'ru': 'Офисы',
         'de': 'Ämter',
-        'lv': 'Biroji',
+        'lv': 'Kontakti',
         "it": 'Uffici'
     },
     "trans-39" : {
@@ -728,6 +728,30 @@ const langArr = {
         'de': 'Juristische Personen - 240 Eur/t',
         'lv': 'Juridiskam Personam - 240 Eur/t',
         "it": 'Persone giuridiche - 240 Eur/t'
+    },
+    "trans-95" : {
+        'ru': 'Склад:',
+        'de': 'Lagerhaus:',
+        'lv': 'Noliktava:',
+        "it": 'Magazzino:'
+    },
+    "trans-96" : {
+        'ru': 'Эхо-стрит 5:',
+        'de': 'Echo Street 5:',
+        'lv': 'Atbalss iela 5:',
+        "it": 'Via dell Eco 5:'
+    },
+    "trans-97" : {
+        'ru': 'Юридический адрес:',
+        'de': 'Juristische Adresse:',
+        'lv': 'Juridiska adrese:',
+        "it": 'Sede legale:'
+    },
+    "trans-98" : {
+        'ru': 'Улица Пусес 47-40 <br> Рига LV-1082 <br> Latvijā',
+        'de': 'Pūces-Straße 47-40 <br>  Riga LV-1082 <br>  Lettland ',
+        'lv': 'Pūces iela 47-40 <br> Rīgas LV-1082 <br> Latvijā ',
+        "it": 'Pūces-Straße 47-40 <br>  Riga LV-1082 <br>  Lettland'
     },
 
 }
