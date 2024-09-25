@@ -23,7 +23,7 @@
 }
 .section-info__card {
   border-radius: 10px;
-  width: calc(50% - 10px);
+  width: calc(100% - 10px);
   display: flex;
   flex-direction: column;
   background-color: var(--bg);
@@ -40,7 +40,7 @@
   color: var(--text-default);
 }
 .section-info__text {
-  font-size: 14px;
+  font-size: 18px;
   margin-bottom: 20px;
 }
 .section-info__link {
@@ -48,6 +48,7 @@
   cursor: pointer;
   border-radius: 10px;
   font-size: 14px;
+  max-width: 240px;
   font-weight: 600;
   color: var(--text-white);
   display: block;
