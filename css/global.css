@@ -628,11 +628,7 @@ main {
   .section-contacts__form label {
     width: 100%;
   }
-  .products_list-item-top-rigth img {
-    max-width: 105px;
-    width: 80px!important;
-    height: 125px!important;
-}
+
 .products-list{
   grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
 }

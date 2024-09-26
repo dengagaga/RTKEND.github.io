@@ -124,6 +124,16 @@
   .section-office__info {
     display: block;
   }
+  .contacts_alls-left-title {
+    font-size: 24px;
+  }
+  .contacts_alls-left-text {
+    font-size: 18px;
+}
+  .contacts_alls {
+    flex-direction: column;
+    gap: 30px;
+  }
 }
 @media (max-width: 540px) {
   .section-people {
