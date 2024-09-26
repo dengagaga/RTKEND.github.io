@@ -36,19 +36,19 @@
     <nav class="mobile-menu__inner">
       <ul class="header__nav-list--mobile">
         <li>
-          <a class="header__nav-link" href="delivery.html">Доставка</a>
+          <a class="header__nav-link lng-Delivery-mob" href="delivery.html">Доставка</a>
         </li>
         <li>
-          <a class="header__nav-link" href="about.html">О нас</a>
+          <a class="header__nav-link lng-About-mob" href="about.html">О нас</a>
         </li>
         <li>
-          <a class="header__nav-link" href="quality.html">Качество</a>
+          <a class="header__nav-link lng-Quality-mob" href="quality.html">Качество</a>
         </li>
         <li>
-          <a class="header__nav-link" href="contacts.html">Контакты</a>
+          <a class="header__nav-link lng-Contacts-mob" href="contacts.html">Контакты</a>
         </li>
         <li>
-          <a class="header__nav-btn--mobile" href="cooperation.html">Начать сотрудничество</a>
+          <a class="header__nav-btn--mobile lng-Start_cooperation-mob" href="index.html#formin">Начать сотрудничество</a>
         </li>
       </ul>
     </nav>
@@ -79,7 +79,7 @@
         <option value="lv">LV</option>
         <option value="it">IT</option>
     </select>
-      <a  class="header__nav-btn lng-Start_cooperation" href="cooperation.html">Начать сотрудничество</a>
+      <a  class="header__nav-btn lng-Start_cooperation" href="index.html#formin">Начать сотрудничество</a>
       <!-- <div>
         <select  class="header__nav-select" name="lang" id="select-lang">
           <option value="RU">RU</option>
@@ -147,7 +147,7 @@
               <p class="products-list__price products-list__price-1 lng-trans-91">Частным лицам - 240 Eur/t</p>
               <p class="products-list__price lng-trans-93">Юридическим лицам - 240 Eur/t</p>
             </div>
-            <a class="products-list__link lng-Lasīt" href="cooperation.html">Подробнее</a>
+            <a class="products-list__link lng-Lasīt" href="index.html#formin">Подробнее</a>
           </div>
         </li>
         <li class="products-list__item">
@@ -186,7 +186,7 @@
               <p class="products-list__price products-list__price-1 lng-trans-92">Частным лицам - 240 Eur/t</p>
               <p class="products-list__price lng-trans-94">Юридическим лицам - 240 Eur/t</p>
             </div>
-            <a class="products-list__link lng-Lasīt2" href="cooperation.html">Подробнее</a>
+            <a class="products-list__link lng-Lasīt2" href="index.html#formin">Подробнее</a>
           </div>
         </li>
         <li class="products-list__item">
@@ -221,7 +221,7 @@
             <div>
               <h3 class="products-list__title lng-Holzpellets3">Древесные гранулы</h3>
             </div>
-            <a class="products-list__link lng-Lasīt3" href="cooperation.html">Подробнее</a>
+            <a class="products-list__link lng-Lasīt3" href="index.html#formin">Подробнее</a>
           </div>
         </li>
       
@@ -310,7 +310,7 @@
                 <h3 class="card__title lng-trans-13">Свяжитесь с нами</h3>
                 <p class="card__text lng-trans-12">Отправьте заявку с указанием вида продукта, объема и места доставки, используя бланк заявки на домашней странице, или позвоните нам.</p>
               </div>
-              <form class="card__bottom" action="cooperation.html">
+              <form class="card__bottom" action="index.html#formin">
                 <input class="card__bottom-input" type="tel" placeholder="Введите ваш номер телефона">
                 <button class="card__bottom-btn lng-trans-16">Оставить заявку</button>
               </form>
@@ -342,26 +342,26 @@
 
         </div>
         <div class="section-contacts__right">
-          <form class="section-contacts__form" method="post" action="/index.php">
+          <form class="section-contacts__form" method="post" id="formin" action="/index.php">
             <label>
               <span class="lng-trans-19">Имя</span>
-              <input name="name" type="text" placeholder="Введите имя*">
+              <input name="name" type="text" placeholder="Enter a name*">
             </label>
             <label>
               <span class="lng-trans-20">Фамилия</span>
-              <input type="text" name="fam" placeholder="Введите фамилию*">
+              <input type="text" name="fam" placeholder="Enter surname*">
             </label>
             <label>
               <span class="lng-trans-21">Адрес почты</span>
-              <input type="email" name="gmail" placeholder="Введите email*">
+              <input type="email" name="gmail" placeholder="Enter email*">
             </label>
             <label>
               <span class="lng-trans-22">Номер</span>
-              <input type="tel" name="phone" placeholder="Введите номер*">
+              <input type="tel" name="phone" placeholder="Enter the number*">
             </label>
             <label class="section-contacts__form-message">
               <span class="lng-trans-23">Ваше сообщение</span>
-              <textarea name="massage" id="message" placeholder="Введите сообщение......"></textarea>
+              <textarea name="massage" id="message" placeholder="Enter a message......"></textarea>
             </label>
             <button class="section-contacts__form-btn lng-trans-24" type="submit">Отправить обращение</button>
             <input type="hidden" name="act" value="order">
