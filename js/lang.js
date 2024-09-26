@@ -40,6 +40,47 @@ const langArr = {
         "it": 'Avviare la cooperazione'
 
     },
+    "Products-mob" : {
+        'ru': 'Продукция',
+        'de': 'Produkte',
+        'lv': 'Produkti',
+        "it": 'Prodotti'
+    },
+    "Delivery-mob" : {
+        'ru': 'Доставка',
+        'de': 'Lieferung',
+        'lv': 'Piegāde',
+        "it": 'Consegna'
+
+    },
+    "About-mob" : {
+        'ru': 'О нас',
+        'de': 'Über uns',
+        'lv': 'Par mums',
+        "it": 'Chi siamo'
+
+    },
+    "Quality-mob" : {
+        'ru': 'Качество',
+        'de': 'Qualität',
+        'lv': 'Kvalitāte',
+        "it": 'Qualità'
+
+    },
+    "Contacts-mob" : {
+        'ru': 'Контакты',
+        'de': 'Kontakte',
+        'lv': 'Kontakti',
+        "it": 'Contatti'
+
+    },
+    "Start_cooperation-mob" : {
+        'ru': 'Начать сотрудничество',
+        'de': 'Zusammenarbeit beginnen',
+        'lv': 'Sāciet sadarbību',
+        "it": 'Avviare la cooperazione'
+
+    },
     "Pellets" : {
         'ru': 'Приобретайте гранулы премиум качества, не выходя из дома.',
         'de': 'Kaufen Sie Premium-Qualität Pellets, ohne das Haus zu verlassen.',
