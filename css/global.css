@@ -268,6 +268,15 @@ main {
 .footer__text {
   margin-bottom: 36px;
 }
+
+.footer__text-all {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+.footer__text-all img{
+  margin-bottom: 36px;
+}
 .footer__contacts {
   display: flex;
   flex-wrap: wrap;
@@ -897,6 +906,14 @@ main {
   }
   .section-contacts__info-item {
     width: 100%;
+  }
+  .footer__text-all {
+    flex-direction: column;
+    gap: 0;
+    align-items: start;
+  }
+  .footer__text-all img{
+    margin-bottom: 0;
   }
 }
 

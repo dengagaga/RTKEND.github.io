@@ -35,6 +35,7 @@
 .section-main__content-right {
   width: calc(50% - 16px);
   padding-right: 49px;
+  text-align: justify;
 }
 .section-main__content-right .section-main__content-text:not(:last-child) {
   margin-bottom: 30px;
