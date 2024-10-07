@@ -632,7 +632,9 @@ main {
 .section-contacts__form-btn:hover {
   background: var(--gradient-1-hover);
 }
-
+.text-1 {
+  max-width: 1000px;
+}
 @media (max-width: 1200px) {
   .section-contacts__form label {
     width: 100%;
