@@ -194,10 +194,10 @@ const langArr = {
 
     },
     "trans-4" : {
-        'ru': 'Доставка в течение 5-7 дней',
-        'de': 'Lieferung innerhalb von 5-7 Tagen',
-        'lv': 'Piegāde 5-7 dienu laikā',
-        "it": 'Consegna entro 5-7 giorni'
+        'ru': 'Доставка в течение 1-7 дней',
+        'de': 'Lieferung innerhalb von 1-7 Tagen',
+        'lv': 'Piegāde 1-7 dienu laikā',
+        "it": 'Consegna entro 1-7 giorni'
 
     },
     "trans-5" : {
@@ -309,16 +309,16 @@ const langArr = {
         "it": 'Cognome'
     },
     "trans-21" : {
-        'ru': 'Адрес почты',
-        'de': 'Postanschrift',
+        'ru': 'Адрес электронной почты',
+        'de': 'E-Mail Adresse',
         'lv': 'E-pasta adrese',
-        "it": 'Indirizzo postale'
+        "it": 'Indirizzo e-mail'
     },
     "trans-22" : {
-        'ru': 'Номер',
-        'de': 'Nummer',
-        'lv': 'Telefonā',
-        "it": 'Numero'
+        'ru': 'Номер телефона',
+        'de': 'Rufnummer',
+        'lv': 'Tālruņa numurs',
+        "it": 'Numero di telefono'
     },
     "trans-23" : {
         'ru': 'Ваше сообщение',
@@ -477,10 +477,10 @@ const langArr = {
         "it": 'Unitevi alla schiera dei nostri clienti soddisfatti e godetevi un riscaldamento di qualità eccezionale.  Vi invitiamo alla comunicazione e alla collaborazione!'
     },
     "trans-47" : {
-        'ru': 'ENplus® A1 (№ удостоверения LV304)',
-        'de': 'ENplus® A1 (Zertifikat Nr. LV304)',
-        'lv': 'ENplus® A1 (sertifikāta Nr. LV304',
-        "it": 'ENplus® A1 (certificato n. LV304)'
+        'ru': 'ENplus® A1 (№ удостоверения LV324)',
+        'de': 'ENplus® A1 (Zertifikat Nr. LV324)',
+        'lv': 'ENplus® A1 (sertifikāta Nr. LV324',
+        "it": 'ENplus® A1 (certificato n. LV324)'
     },
     "trans-48" : {
         'ru': 'Сертификат ENplus® применяется ко всей цепочке поставок древесных гранул – от производства до доставки конечному клиенту, тем самым обеспечивая соответствие гранул стандартам качества и прозрачность цепочки создания продукта.',
@@ -495,10 +495,10 @@ const langArr = {
         "it": 'Per i consumatori, la conformità dei pellet di segatura agli standard di qualità ENplus® A1 significa che il prodotto acquistato è di alta qualità e realizzato esclusivamente con risorse rinnovabili estratte in modo sostenibile e rispettoso della natura.'
     },
     "trans-50" : {
-        'ru': 'Читать подробнее',
-        'de': 'Mehr lesen',
-        'lv': 'Lasīt vairāk',
-        "it": 'Per saperne di più'
+        'ru': 'Сертификат',
+        'de': 'Zertifikat',
+        'lv': 'Sertifikāts',
+        "it": 'Certificato'
     },
     "trans-51" : {
         'ru': 'Нужна помощь?',
@@ -752,7 +752,19 @@ const langArr = {
         'lv': 'Privātpersonām - 240 Eur/t',
         "it": 'Privati - 240 Eur/t'
     },
+    "trans-110" : {
+        'ru': 'Частным лицам - 240 Eur/t',
+        'de': 'Privatpersonen - 240 Eur/t',
+        'lv': 'Privātpersonām - 240 Eur/t',
+        "it": 'Privati - 240 Eur/t'
+    },
     "trans-92" : {
+        'ru': 'Частным лицам - 240 Eur/t',
+        'de': 'Privatpersonen - 240 Eur/t',
+        'lv': 'Privātpersonām - 240 Eur/t',
+        "it": 'Privati - 240 Eur/t'
+    },
+    "trans-111" : {
         'ru': 'Частным лицам - 240 Eur/t',
         'de': 'Privatpersonen - 240 Eur/t',
         'lv': 'Privātpersonām - 240 Eur/t',
@@ -777,10 +789,10 @@ const langArr = {
         "it": 'Magazzino:'
     },
     "trans-96" : {
-        'ru': 'Эхо-стрит 5:',
-        'de': 'Echo Street 5:',
-        'lv': 'Atbalss iela 5:',
-        "it": 'Via dell Eco 5:'
+        'ru': 'Улица Атбалс, 5, Латгальский пригород, <br> Рига, LV-1063, Латвия',
+        'de': 'Atbalss-Straße 5, Vorort Latgale, Riga, <br> LV-1063, Lettland',
+        'lv': 'Atbalss iela 5, Latgales priekšpilsēta, <br> Rīga, LV-1063, Latvija',
+        "it": '5 Atbalss Street, Latgale suburb, Riga, <br> LV-1063, Lettonia'
     },
     "trans-97" : {
         'ru': 'Юридический адрес:',
