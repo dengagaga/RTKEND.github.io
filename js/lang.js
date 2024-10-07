@@ -479,7 +479,7 @@ const langArr = {
     "trans-47" : {
         'ru': 'ENplus® A1 (№ удостоверения LV324)',
         'de': 'ENplus® A1 (Zertifikat Nr. LV324)',
-        'lv': 'ENplus® A1 (sertifikāta Nr. LV324',
+        'lv': 'ENplus® A1 (sertifikāta Nr. LV324)',
         "it": 'ENplus® A1 (certificato n. LV324)'
     },
     "trans-48" : {
