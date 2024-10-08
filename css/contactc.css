@@ -13,6 +13,9 @@
 }
 .item-card {
 }
+.lng-trans-98 {
+  text-align: end;
+}
 .item-card__top {
   display: flex;
   gap: 15px;
