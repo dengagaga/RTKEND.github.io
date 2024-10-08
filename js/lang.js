@@ -789,7 +789,7 @@ const langArr = {
         "it": 'Magazzino:'
     },
     "trans-96" : {
-        'ru': 'Улица Атбалс 5 <br> Рига LV-1063<br> Латвия',
+        'ru': 'Атбалс 5 <br> Рига LV-1063<br> Латвия',
         'de': 'Atbals-Straße 5<br> Riga LV-1063<br> Lettland',
         'lv': 'Atbals iela 5 <br> Rīga LV-1063<br> Latvija',
         "it": '5 Atbals Street <br> Riga LV-1063<br> Lettonia'
@@ -801,7 +801,7 @@ const langArr = {
         "it": 'Sede legale:'
     },
     "trans-98" : {
-        'ru': 'Улица Пуцес 47-40 <br> Рига LV-1082 <br> Латвия',
+        'ru': 'Пуцес 47-40 <br> Рига LV-1082 <br> Латвия',
         'de': 'Pūces-Straße 47-40 <br>  Riga LV-1082 <br>  Lettland ',
         'lv': 'Pūces iela 47-40 <br> Rīgas LV-1082 <br> Latvijā ',
         "it": 'Pūces-Straße 47-40 <br>  Riga LV-1082 <br>  Lettland'
