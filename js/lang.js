@@ -411,10 +411,10 @@ const langArr = {
         "it": 'modalità di consegna combinata - camion + treno - da 23,1 a 27 tonnellate.'
     },
     "trans-38" : {
-        'ru': 'Офисы',
-        'de': 'Ämter',
+        'ru': 'Контакты',
+        'de': 'Kontakte',
         'lv': 'Kontakti',
-        "it": 'Uffici'
+        "it": 'Contatti'
     },
     "trans-39" : {
         'ru': 'О нас',
@@ -789,10 +789,10 @@ const langArr = {
         "it": 'Magazzino:'
     },
     "trans-96" : {
-        'ru': 'Улица Атбалс, 5, Латгальский пригород, <br> Рига, LV-1063, Латвия',
-        'de': 'Atbalss-Straße 5, Vorort Latgale, Riga, <br> LV-1063, Lettland',
-        'lv': 'Atbalss iela 5, Latgales priekšpilsēta, <br> Rīga, LV-1063, Latvija',
-        "it": '5 Atbalss Street, Latgale suburb, Riga, <br> LV-1063, Lettonia'
+        'ru': 'Улица Атбалс 5 <br> Рига LV-1063<br> Латвия',
+        'de': 'Atbals-Straße 5<br> Riga LV-1063<br> Lettland',
+        'lv': 'Atbals iela 5 <br> Rīga LV-1063<br> Latvija',
+        "it": '5 Atbals Street <br> Riga LV-1063<br> Lettonia'
     },
     "trans-97" : {
         'ru': 'Юридический адрес:',
@@ -801,7 +801,7 @@ const langArr = {
         "it": 'Sede legale:'
     },
     "trans-98" : {
-        'ru': 'Улица Пусес 47-40 <br> Рига LV-1082 <br> Latvijā',
+        'ru': 'Улица Пуцес 47-40 <br> Рига LV-1082 <br> Латвия',
         'de': 'Pūces-Straße 47-40 <br>  Riga LV-1082 <br>  Lettland ',
         'lv': 'Pūces iela 47-40 <br> Rīgas LV-1082 <br> Latvijā ',
         "it": 'Pūces-Straße 47-40 <br>  Riga LV-1082 <br>  Lettland'
