@@ -7,6 +7,7 @@
 }
 .section-main__text {
   margin-bottom: 25px;
+  text-align: justify;
   padding-inline: 65px;
 }
 .section-main__title-2 {
