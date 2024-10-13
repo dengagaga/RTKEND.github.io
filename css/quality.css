@@ -8,6 +8,7 @@
 .section-main__text {
   margin-bottom: 25px;
   padding-inline: 65px;
+  text-align: justify;
 }
 
 .section-info {
@@ -41,6 +42,7 @@
 }
 .section-info__text {
   font-size: 18px;
+  text-align: justify;
   margin-bottom: 20px;
 }
 .section-info__link {
