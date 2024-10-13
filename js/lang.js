@@ -91,7 +91,7 @@ const langArr = {
     "Augstas" : {
         'ru': 'С 2014 года мы занимаемся оптовой и розничной продажей пиломатериалов и топливных пеллетов , обслуживая частных клиентов и предприятия. Если Вы цените экологически чистые и эффективные источники тепла, пеллеты могут стать для Вас отличным выбором. Пеллеты – это небольшие гранулы из натуральной древесины, которые используются для заправки экологически чистых печей и котлов. Благодаря своим преимуществам пеллеты все чаще выбирают в качестве альтернативы традиционным видам топлива, таким как уголь или газ. В нашем предложении Вы найдете высококачественные пеллеты, гарантирующие эффективное и экологически чистое отопление вашего дома или офиса. Мы предлагаем различные виды пеллет в различных вариантах упаковки с учетом ваших потребностей. Свяжитесь с нами, и наши специалисты помогут подобрать лучшее решение для Вашего дома или бизнеса.',
         'de': 'Wir sind seit 2014 im Groß- und Einzelhandel mit Holz und Brennstoffpellets tätig und beliefern Privat- und Geschäftskunden. Wenn Sie Wert auf umweltfreundliche und effiziente Wärmequellen legen, könnten Pellets eine ausgezeichnete Wahl für Sie sein. Pellets sind kleine, aus natürlichem Holz hergestellte Kügelchen, die als Brennstoff für umweltfreundliche Herde und Heizkessel verwendet werden. Aufgrund ihrer Vorteile werden Pellets zunehmend als Alternative zu herkömmlichen Brennstoffen wie Kohle oder Gas gewählt. In unserem Angebot finden Sie qualitativ hochwertige Pellets, die eine effiziente und umweltfreundliche Beheizung Ihres Hauses oder Büros garantieren. Wir bieten verschiedene Arten von Pellets in unterschiedlichen Verpackungen an, um Ihren Bedürfnissen gerecht zu werden. Wenden Sie sich an uns und unsere Experten helfen Ihnen, die beste Lösung für Ihr Haus oder Ihr Unternehmen zu finden.',
-        'lv': 'Kopš 2014. gada mēs nodarbojamies ar zāģmateriālu un kurināmā granulu vairumtirdzniecību un mazumtirdzniecību, apkalpojot mājsaimniecības un uzņēmumus. Ja jums ir svarīgi videi draudzīgi un efektīvi siltuma avoti, granulas var būt lieliska izvēle tieši jums. Granulas ir nelielas granulas, kas izgatavotas no dabīgas koksnes un tiek izmantotas videi draudzīgu plītīm un apkures katliem. Pateicoties to priekšrocībām, granulas arvien biežāk izvēlas kā alternatīvu tradicionālajam kurināmajam, piemēram, oglēm vai gāzei. Mūsu piedāvājumā atradīsiet augstas kvalitātes granulas, kas garantē efektīvu un videi draudzīgu apkuri jūsu mājās vai birojā. Mēs piedāvājam dažāda veida granulas dažādos iepakojumos, kas atbilst jūsu vajadzībām. Sazinieties ar mums, un mūsu speciālisti palīdzēs jums atrast vislabāko risinājumu jūsu mājai vai uzņēmumam.',
+        'lv': 'Kopš 2014. gada mēs nodarbojamies ar zāģmateriālu un kurināmā granulu vairumtirdzniecību un mazumtirdzniecību, apkalpojot mājsaimniecības un uzņēmumus. Ja jums ir svarīgi videi draudzīgi un efektīvi siltuma avoti, granulas var būt lieliska izvēle tieši jums. Koksnes apkures granulas ir nelielas granulas, kas izgatavotas no dabīgas koksnes un tiek izmantotas ekoloģiski tīru krāšņu un katlu uzpildei. Pateicoties to priekšrocībām, granulas arvien biežāk izvēlas kā alternatīvu tradicionālajam kurināmajam, piemēram, oglēm vai gāzei. Mūsu piedāvājumā atradīsiet augstas kvalitātes granulas, kas garantē efektīvu un videi draudzīgu apkuri jūsu mājās vai birojā. Mēs piedāvājam dažāda veida granulas dažādos iepakojumos, kas atbilst jūsu vajadzībām. Sazinieties ar mums, un mūsu speciālisti palīdzēs jums atrast vislabāko risinājumu jūsu mājai vai uzņēmumam.',
         "it": 'Dal 2014 ci occupiamo della vendita all ingrosso e al dettaglio di legname e pellet, al servizio di clienti privati e aziende. Se apprezzate le fonti di calore ecologiche ed efficienti, il pellet può essere una scelta eccellente per voi. I pellet sono piccoli granuli ricavati dal legno naturale che vengono utilizzati per alimentare cucine e caldaie ecologiche. Grazie ai loro vantaggi, i pellet sono sempre più scelti come alternativa ai combustibili tradizionali come il carbone o il gas. Nella nostra offerta troverete pellet di alta qualità che garantiscono un riscaldamento efficiente ed ecologico della vostra casa o del vostro ufficio. Offriamo diversi tipi di pellet in varie opzioni di imballaggio per soddisfare le vostre esigenze. Contattateci e i nostri esperti vi aiuteranno a trovare la soluzione migliore per la vostra casa o azienda.'
 
     },
@@ -327,9 +327,9 @@ const langArr = {
         "it": 'Il vostro messaggio'
     },
     "trans-24" : {
-        'ru': 'Отправить обращение',
+        'ru': 'Отправить сообщение',
         'de': 'Einen Appell senden',
-        'lv': 'Sūtīt apelāciju',
+        'lv': 'Sūtīt ziņojumu',
         "it": 'Inviare un appello'
     },
     "trans-25" : {
@@ -359,7 +359,7 @@ const langArr = {
     "trans-29" : {
         'ru': 'Свяжитесь с нами для обсуждения условий доставки и расчета стоимости в зависимости от вашего местоположения!',
         'de': 'Nehmen Sie Kontakt mit uns auf, um die Lieferbedingungen und Kosten für Ihren Standort zu besprechen!',
-        'lv': 'Sazinieties ar mums, lai apspriestu piegādes noteikumus un izmaksas atkarībā no jūsu atrašanās vietas!',
+        'lv': 'Sazinieties ar mums, lai apspriestu piegādes nosacījumus un aprēķinātu izmaksas atkarībā no jūsu atrašanās vietas!',
         "it": 'Contattateci per discutere i termini di consegna e i costi in base alla vostra posizione!'
     },
     "trans-30" : {
@@ -791,7 +791,7 @@ const langArr = {
     "trans-96" : {
         'ru': 'Атбалс 5 <br> Рига LV-1063<br> Латвия',
         'de': 'Atbals-Straße 5<br> Riga LV-1063<br> Lettland',
-        'lv': 'Atbals iela 5 <br> Rīga LV-1063<br> Latvija',
+        'lv': 'Atbalss iela 5 <br> Rīga LV-1063<br> Latvija',
         "it": '5 Atbals Street <br> Riga LV-1063<br> Lettonia'
     },
     "trans-97" : {
@@ -803,7 +803,7 @@ const langArr = {
     "trans-98" : {
         'ru': 'Пуцес 47-40 <br> Рига LV-1082 <br> Латвия',
         'de': 'Pūces-Straße 47-40 <br>  Riga LV-1082 <br>  Lettland ',
-        'lv': 'Pūces iela 47-40 <br> Rīgas LV-1082 <br> Latvijā ',
+        'lv': 'Pūces iela 47-40 <br> Rīga LV-1082 <br> Latvija',
         "it": 'Pūces-Straße 47-40 <br>  Riga LV-1082 <br>  Lettland'
     },
     "trans-99" : {
@@ -839,7 +839,7 @@ const langArr = {
     "trans-104" : {
         'ru': 'Для клиентов из других стран доставка осуществляется в сотрудничестве с международными транспортными компаниями. Сроки доставки зависят от удалённости и специфики страны назначения. Мы организуем полное сопровождение груза, обеспечивая безопасность и оперативность на всех этапах транспортировки.',
         'de': 'Für Kunden aus anderen Ländern wird die Lieferung in Zusammenarbeit mit internationalen Transportunternehmen durchgeführt. Die Lieferfrist hängt von der Entfernung und den Besonderheiten des Ziellandes ab. Wir organisieren eine umfassende Unterstützung für die Fracht und gewährleisten Sicherheit und Effizienz in allen Phasen des Transports.',
-        'lv': 'Piegāde klientiem no citām valstīm tiek veikta sadarbībā ar starptautiskajiem transporta uzņēmumiem. Piegādes laiks ir atkarīgs no galamērķa valsts attāluma un specifikas. Mēs organizējam pilnu kravas apkalpošanu, nodrošinot drošību un efektivitāti visos transportēšanas posmos.',
+        'lv': 'Piegāde klientiem no citām valstīm tiek veikta sadarbībā ar starptautiskajiem transporta uzņēmumiem. Piegādes laiks ir atkarīgs no galamērķa valsts attāluma un specifikas. Mēs organizējam pilnu kravas loģistiku, nodrošinot drošību un operativitāti visos transportēšanas posmos.',
         "it": 'Per i clienti di altri Paesi, la consegna viene effettuata in collaborazione con società di trasporto internazionali. I tempi di consegna dipendono dalla distanza e dalle caratteristiche del paese di destinazione. Organizziamo unassistenza cargo completa, garantendo sicurezza ed efficienza in tutte le fasi del trasporto.'
     },
 
