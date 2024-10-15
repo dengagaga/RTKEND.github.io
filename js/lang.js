@@ -765,10 +765,10 @@ const langArr = {
         "it": 'Privati - 240 Eur/t'
     },
     "trans-111" : {
-        'ru': 'Частным лицам - 240 Eur/t',
-        'de': 'Privatpersonen - 240 Eur/t',
-        'lv': 'Privātpersonām - 240 Eur/t',
-        "it": 'Privati - 240 Eur/t'
+        'ru': 'Юридическим лицам - 240 Eur/t',
+        'de': 'Juristische Personen - 240 Eur/t',
+        'lv': 'Juridiskam Personam - 240 Eur/t',
+        "it": 'Persone giuridiche - 240 Eur/t'
     },
     "trans-93" : {
         'ru': 'Юридическим лицам - 240 Eur/t',
