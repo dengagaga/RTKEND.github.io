@@ -862,7 +862,7 @@ function changeLanguage() {
         console.log(hash);
         hash = hash.substr(1);
         if (!allLang.includes(hash)) {
-            location.href = window.location.pathname + '#ru';
+            location.href = window.location.pathname + '#lv';
             location.reload();
         }
         // const la = localStorage.getItem('select')
@@ -881,7 +881,7 @@ function changeLanguage() {
     console.log(hash);
     hash = hash.substr(1);
     if (!allLang.includes(hash)) {
-        location.href = window.location.pathname + '#ru';
+        location.href = window.location.pathname + '#lv';
         location.reload();
     }
     // const la = localStorage.getItem('select')
