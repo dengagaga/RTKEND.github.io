@@ -846,7 +846,7 @@ const langArr = {
 }
 
 const select = document.querySelector('.select');
-const allLang = ['ru',  'lv'];
+const allLang = ['ru', 'de' 'lv', 'it'];
 
 select.addEventListener('change', changeURLLanguage);
 
