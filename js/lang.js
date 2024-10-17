@@ -747,40 +747,40 @@ const langArr = {
         "it": 'Invia una richiesta'
     },
     "trans-91" : {
-        'ru': 'Частным лицам - 240 Eur/t',
-        'de': 'Privatpersonen - 240 Eur/t',
-        'lv': 'Privātpersonām - 240 Eur/t',
-        "it": 'Privati - 240 Eur/t'
+        'ru': 'Частным лицам - 237,44 Eur/t',
+        'de': 'Privatpersonen - 237,44 Eur/t',
+        'lv': 'Privātpersonām - 237,44 Eur/t',
+        "it": 'Privati - 237,44 Eur/t'
     },
     "trans-110" : {
-        'ru': 'Частным лицам - 240 Eur/t',
-        'de': 'Privatpersonen - 240 Eur/t',
-        'lv': 'Privātpersonām - 240 Eur/t',
-        "it": 'Privati - 240 Eur/t'
+        'ru': 'Частным лицам - 237,44 Eur/t',
+        'de': 'Privatpersonen - 237,44 Eur/t',
+        'lv': 'Privātpersonām - 237,44 Eur/t',
+        "it": 'Privati - 237,44 Eur/t'
     },
     "trans-92" : {
-        'ru': 'Частным лицам - 240 Eur/t',
-        'de': 'Privatpersonen - 240 Eur/t',
-        'lv': 'Privātpersonām - 240 Eur/t',
-        "it": 'Privati - 240 Eur/t'
+        'ru': 'Частным лицам - 237,44 Eur/t',
+        'de': 'Privatpersonen - 237,44 Eur/t',
+        'lv': 'Privātpersonām - 237,44 Eur/t',
+        "it": 'Privati - 237,44 Eur/t'
     },
     "trans-111" : {
-        'ru': 'Юридическим лицам - 240 Eur/t',
-        'de': 'Juristische Personen - 240 Eur/t',
-        'lv': 'Juridiskam Personam - 240 Eur/t',
-        "it": 'Persone giuridiche - 240 Eur/t'
+        'ru': 'Юридическим лицам - 212 Eur/t',
+        'de': 'Juristische Personen - 212 Eur/t',
+        'lv': 'Juridiskam Personam - 212 Eur/t',
+        "it": 'Persone giuridiche - 212 Eur/t'
     },
     "trans-93" : {
-        'ru': 'Юридическим лицам - 240 Eur/t',
-        'de': 'Juristische Personen - 240 Eur/t',
-        'lv': 'Juridiskam Personam - 240 Eur/t',
-        "it": 'Persone giuridiche - 240 Eur/t'
+        'ru': 'Юридическим лицам - 212 Eur/t',
+        'de': 'Juristische Personen - 212 Eur/t',
+        'lv': 'Juridiskam Personam - 212 Eur/t',
+        "it": 'Persone giuridiche - 212 Eur/t'
     },
     "trans-94" : {
-        'ru': 'Юридическим лицам - 240 Eur/t',
-        'de': 'Juristische Personen - 240 Eur/t',
-        'lv': 'Juridiskam Personam - 240 Eur/t',
-        "it": 'Persone giuridiche - 240 Eur/t'
+        'ru': 'Юридическим лицам - 212 Eur/t',
+        'de': 'Juristische Personen - 212 Eur/t',
+        'lv': 'Juridiskam Personam - 212 Eur/t',
+        "it": 'Persone giuridiche - 212 Eur/t'
     },
     "trans-95" : {
         'ru': 'Склад:',
